@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{F74DE680-1A75-F5C2-8F82-EFBC1BD577FE}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Button.cs">
+    <Files>
+      <File FileName="Assets/Script/GameManager.cs" Line="21" Column="56" />
+      <File FileName="../2018 Fall/ITP Final Project/THE FINAL PROJECT 4/Assets/script/DialogueManager.cs" Line="1" Column="1" />
+      <File FileName="../2018 Fall/ITP Final Project/THE FINAL PROJECT 4/Assets/script/GameManager.cs" Line="1" Column="1" />
+      <File FileName="../2018 Fall/ITP Final Project/THE FINAL PROJECT 4/Assets/script/NPC/F1.cs" Line="8" Column="5" />
+      <File FileName="Assets/Script/Button.cs" Line="7" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

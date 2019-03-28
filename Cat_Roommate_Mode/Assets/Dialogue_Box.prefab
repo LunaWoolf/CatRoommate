@@ -1,0 +1,407 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5958496544852110998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5958496544852110999}
+  - component: {fileID: 5958496544852110997}
+  - component: {fileID: 5958496544852110996}
+  m_Layer: 0
+  m_Name: Dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5958496544852110999
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5958496544852110998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5958496545313520307}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -338.8, y: 18}
+  m_SizeDelta: {x: 64.5, y: 36}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5958496544852110997
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5958496544852110998}
+  m_CullTransparentMesh: 0
+--- !u!114 &5958496544852110996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5958496544852110998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_text: 'Hi
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 257
+  m_isAlignmentEnumConverted: 1
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -16.884947, y: -5.195355, z: -694.9255, w: -40.26405}
+  m_textInfo:
+    textComponent: {fileID: 5958496544852110996}
+    characterCount: 3
+    spriteCount: 0
+    spaceCount: 1
+    wordCount: 1
+    linkCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
+  m_havePropertiesChanged: 0
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_isInputParsingRequired: 0
+  m_inputSource: 0
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &5958496545313520306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5958496545313520307}
+  - component: {fileID: 5958496545313520270}
+  - component: {fileID: 5958496545313520305}
+  - component: {fileID: 5958496545313520304}
+  m_Layer: 0
+  m_Name: Dialogue_Box
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5958496545313520307
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5958496545313520306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5958496544852110999}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -118}
+  m_SizeDelta: {x: 0.000061035, y: -279.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5958496545313520270
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5958496545313520306}
+  m_CullTransparentMesh: 0
+--- !u!114 &5958496545313520305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5958496545313520306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.05660379, g: 0.05660379, b: 0.05660379, a: 0.73333335}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!114 &5958496545313520304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5958496545313520306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dee684e1335294ec999f10478af736ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  end: 0
+  Dialogues1:
+  - "Hi! I\u2019m Katio!"
+  - ' So you are my new Roommate! Nice to meet you!'
+  - "Don\u2019t worry, you don\u2019t need to pass a test or something to live with
+    me"
+  - I know you are the right one the first second I saw you.
+  - Q1
+  Dialogues2:
+  - "As you see I\u2019m a Cat-man"
+  - "Don\u2019t know have you ever lived with a Animal-guy before\u2026"
+  - But come on, we are no different compared with humans.
+  - Cool, so you can look around, check the house
+  - Ask me whatever you want.
+  Dialogues3:
+  - I moved here four years ago. Nice house.
+  - "Got several roommates through these years, they\u2019re all nice."
+  - "Don\u2019t worried about the rent, I can cover you for the first few days."
+  - Cool, so you can look around, check the house, ask me whatever you want.
+  - Ask me whatever you want.
+  Dialogues4:
+  - 0
+  - Yeah I used to be a boxer
+  - I was really good!
+  - See that trophy?
+  - I want to be a boxer since I was 5
+  - Q2
+  Dialogues5:
+  - I Stop playing 4 years ago.
+  - Remeber that?
+  - Animal-man was forbided to play boxing four years ago.
+  Dialogues6:
+  - Haha...That's a dangergous sport...
+  - But I'm really good at it.
+  - Have to give it up, because Animal-man are way more powerful than human.
+  - So I can't play it anymore.
+  Dialogues7:
+  - 0
+  - 'Sorry But I prefer the curtain to be closed '
+  - No reason
+  - Does it bother you?
+  - Q3
+  Dialogues8:
+  - "Wow, a lot of humans couldn\u2019t understand that."
+  - Thank you
+  Dialogues9:
+  - "I get it. You\u2019re a human"
+  - 'We have different habits
+
+'
+  - "Let\u2019s talk about the curtain that later\n"
+  Dialogues10:
+  - 0
+  - Do you want to watch the TV?
+  - Oh...wait. It's news time
+  - Well...
+  - 'Recently some humans are missing in this neighborhood
+
+'
+  - 'And human polices insist it was done by Animal-Man
+
+'
+  - I'm a little bit angry about it
+  - Q4
+  Dialogues11:
+  - Thank you!
+  - it's nice to hear this from a human
+  Dialogues12:
+  - Right, we should take all the blame
+  - Animal-Man are always wrong
+  Dialogues13:
+  - 0
+  - 'Opps
+
+'
+  - "Sorry, I forget clean the knife\u2026"
+  - 'I was...cooking before you came
+
+'
+  - Enough about me
+  - Q5
+  Dialogues14:
+  - Nice!
+  - We can spend some time in the Kitchen together later!
+  - I love cooking hum...I mean cooking with human!
+  - '...yeah...'
+  Dialogues15:
+  - Human's are used to getting food from hardworking Animals right?
+  - "I\u2019m joking! I can cook for you later."
+  Dialogues16:
+  - '* Katio locks the door'
+  - So! No more question!
+  - Are you ready to live with me?
+  - "Or\u2026"
+  - "Can you tell that I\u2019m going to kill you now?"
+  - Haha
+  - Right
+  - "I\u2019m a Human Killer"
+  - All the missing people
+  - I did those things.
+  - 'Who cares about the right of Animal-man
+
+'
+  - "It\u2019s a human world"
+  - ' I hate it
+
+'
+  - 'I have to give up my dream just because no human can beat me up?
+
+'
+  - Then this is my way of revenge.
+  - Q6
+  Dialogues17:
+  - " \u2026.\n"
+  - "What\u2019s problem with you?\n"
+  - "I just said I\u2019m gonna kill you?\n"
+  - Why did you apologize?
+  - "\u2026"
+  - 'Thank you
+
+'
+  - "I can see that you are a good human\u2026\n"
+  - 'You are nice to me
+
+'
+  - "And we have so much in common\u2026"
+  - "Maybe not all human are evil\u2026"
+  - "\u2026\n"
+  - "Don\u2019t tell anyone about this\n"
+  - 'You can leave now.
+
+'
+  - "You know if these are all fake\u2026\n"
+  - I would like you to be my roommate for real
+  Dialogues18:
+  - 'That''s too late.
+
+'
+  - Bye.
+  Dialogues19:
+  - No
+  - This world is crazy
+  - "I can see that you are a good guy\u2026\n"
+  - But not all human are like you
+  - 'You are nice to me
+
+'
+  - "And we have so much in common\u2026\n"
+  - "Maybe not all human are evil\u2026\n"
+  - "\u2026\n"
+  - "Don\u2019t tell anyone about this\n\n"
+  - You can leave now.
+  Dialogues20:
+  - No
+  - But this world is.
